@@ -31,7 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
                   <li>
                     <span class="participant-email">${participant}</span>
                     <button class="delete-participant-btn" 
-                            onclick="unregisterParticipant('${name}', '${participant}')" 
+                    <button class="delete-participant-btn"
+                            data-activity="${name}"
+                            data-participant="${participant}"
                             title="Remove participant">
                       ×
                     </button>
