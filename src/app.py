@@ -73,7 +73,7 @@ activities = {
         "description": "Hands-on experiments and science fair project mentoring",
         "schedule": "Mondays, 3:30 PM - 4:30 PM",
         "max_participants": 20,
-        "participants": ["lucas@mergington.edu"]
+        "participants": []
     }
 }
 
